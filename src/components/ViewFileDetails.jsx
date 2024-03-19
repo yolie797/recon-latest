@@ -131,7 +131,7 @@ export default function ViewFileDetails() {
     </button>
 </div>
 
-<div className="p-4 ">
+<div className="p-1">
 <div className="overflow-hidden border-b border-gray-200 shadow rounded-lg">
     <table className="min-w-full divide-y divide-gray-200 font-mono">
         <thead className="bg-deepMidnight text-white">

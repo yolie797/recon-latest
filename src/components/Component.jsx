@@ -75,7 +75,7 @@ function Component() {
       <div className="w-full">
       <div className="bg-white border border-deepMidnight shadow-md p-4 rounded-md m-4 ">
 
-      <div className="flex justify-between px-10 py-4 mr-5">
+      <div className="flex justify-between px-5 py-1 mr-5">
       <ul className="flex rounded-lg overflow-hidden text-lg mr-3 border border-gray-300">
     {['payment', 'markoff', 'settlement'].map((option, index) => (
       <li key={index} className="flex-1">
@@ -106,7 +106,7 @@ function Component() {
   </div>
 </div>
 
-        <div className="p-4 ">
+        <div className="overflow-x-auto mb-4">
         <div className="overflow-hidden border-b border-gray-200 shadow rounded-lg">
     <table className="min-w-full divide-y divide-gray-200 font-mono">
         <thead className="bg-deepMidnight text-white">

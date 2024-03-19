@@ -132,7 +132,7 @@ export default function ViewReportDetail() {
 </div>
 
 
-          <div className="p-4 ">
+          <div className="p-1">
           <div className="overflow-hidden border-b border-gray-200 shadow rounded-lg">
             {selectedReportTab && (
               <table className="min-w-full divide-y divide-gray-200 font-mono">
