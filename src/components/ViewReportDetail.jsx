@@ -99,13 +99,13 @@ export default function ViewReportDetail() {
             
           </div>
 
-          <div className="mt-3 ml-5 flex items-center justify-between">
+          <div className="mt-4 ml-5 flex items-center justify-between">
           <div className='flex justify-center ml-2'>
     <ul className="flex rounded-lg overflow-hidden text-lg ml-3 bg-gray-200">
         <li className="flex-1">
             <button
                 className={`flex items-center justify-center px-6 py-3 text-center cursor-pointer focus:outline-none ${
-                    selectedReportTab === 'Payment Unreconciled' ? 'bg-white border-b-2 ' : 'bg-gray-200'
+                    selectedReportTab === 'Payment Unreconciled' ? 'bg-deepMidnight text-white border-b-2 ' : 'bg-gray-200'
                 }`}
                 onClick={() => setSelectedReportTab('Payment Unreconciled')}
             >
@@ -115,7 +115,7 @@ export default function ViewReportDetail() {
         <li className="ml-1">
             <button
                 className={`flex items-center justify-center px-6 py-3 text-center cursor-pointer focus:outline-none ${
-                    selectedReportTab === 'Markoff Missing' ? 'bg-white border-b-2 ' : 'bg-gray-200'
+                    selectedReportTab === 'Markoff Missing' ? 'bg-deepMidnight text-white border-b-2 ' : 'bg-gray-200'
                 }`}
                 onClick={() => setSelectedReportTab('Markoff Missing')}
             >
@@ -132,7 +132,7 @@ export default function ViewReportDetail() {
 </div>
 
 
-          <div className="p-1">
+          <div className="p-3 mb-2">
           <div className="overflow-hidden border-b border-gray-200 shadow rounded-lg">
             {selectedReportTab && (
               <table className="min-w-full divide-y divide-gray-200 font-mono">

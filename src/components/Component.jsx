@@ -91,7 +91,7 @@ function Component() {
         <label
           htmlFor={option}
           className={`flex items-center justify-center px-6 py-3 text-center cursor-pointer ${
-            selectedOption === option ? 'bg-white border-b-2 border-gray-300' : 'bg-gray-100'
+            selectedOption === option ? 'bg-deepMidnight text-white border-b-2 border-gray-300' : 'bg-gray-100'
           }`}
         >
           {option.charAt(0).toUpperCase() + option.slice(1)}

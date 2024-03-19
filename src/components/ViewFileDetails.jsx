@@ -97,7 +97,7 @@ export default function ViewFileDetails() {
 <label
                 htmlFor="valid"
                 className={`flex items-center justify-center px-20 py-3 text-center cursor-pointer ${
-                    tab === 'valid' ? 'bg-white border-b-2 border-gray-300' : 'bg-gray-100'
+                    tab === 'valid' ? 'bg-deepMidnight text-white border-b-2 border-gray-300' : 'bg-gray-100'
                 }`}
 >
                 Valid Transactions
@@ -116,7 +116,7 @@ export default function ViewFileDetails() {
 <label
                 htmlFor="invalid"
                 className={`flex items-center justify-center px-20 py-3 text-center cursor-pointer ${
-                    tab === 'invalid' ? 'bg-white border-b-2 border-gray-300' : 'bg-gray-100'
+                    tab === 'invalid' ? 'bg-deepMidnight text-white border-b-2 border-gray-300' : 'bg-gray-100'
                 }`}
 >
                 Invalid Transactions
